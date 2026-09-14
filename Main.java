@@ -5,16 +5,26 @@ public class Main {
      Scanner pr = new Scanner(System.in);
     int button = pr.nextInt();
 
-    if (button == 1) { 
-        System.out.println("Hello");
-    } else if (button == 2) {
-        System.out.println("Namaste");
-    }  else if (button == 3) { 
-        System.out.println("Hallo");
-    }   else {
-        System.out.println("Invalid button");
-    }
+   // button == 1) { 
+   //System.out.println("Hello");
+   // else if (button == 2) {
+   //   System.out.println("Namaste");
+   //  else if (button == 3) { 
+   //   System.out.println("Hallo");
+   //   else {
+   //   System.out.println("Invalid button");
+   //
+      
+   switch(button) {
 
+    case 1 : System.out.println("Hello");
+    break;
+    case 2 : System.out.println("Namaste");
+    break;
+    case 3 : System.out.println("Hallo");
+    break;
+    default : System.out.println("Invalid button");
+   }
         }
         }
      
