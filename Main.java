@@ -3,20 +3,20 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
      Scanner pr = new Scanner(System.in);
-     int a = pr.nextInt();
-     int b = pr.nextInt();
-        if (a == b) {
-            System.out.println("equal");
-        } else if (a > b) {
-            System.out.println("a is greater");
-        } else {
-            System.out.println("a is lesser");
-        }
-        
+    int button = pr.nextInt();
+
+    if (button == 1) { 
+        System.out.println("Hello");
+    } else if (button == 2) {
+        System.out.println("Namaste");
+    }  else if (button == 3) { 
+        System.out.println("Hallo");
+    }   else {
+        System.out.println("Invalid button");
+    }
 
         }
         }
      
 
     
-
